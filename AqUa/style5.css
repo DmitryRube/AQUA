@@ -1,11 +1,13 @@
 @import url(/font.css);
-
-.footer__text {
+.footer {
     
-    max-width: 1296px;
-    margin-left: 312px;
-    margin-top: 109px;
-    margin-bottom: 30px;
+    width: 1296px;
+    
+    
+}
+.footer__text {
+    width: 1296px;
+    margin: 109px auto 30px auto;
     font-family: 'El Messiri';
     font-style: normal;
 font-weight: 400;

@@ -1,7 +1,11 @@
-@import url(/font.css);
+body{
+    
+    background-color: #162831;
+    color:white;
+}
 
 .seans{
-margin: 150px auto 150px auto;
+margin: 150px auto 0px auto;
 width: 1296px;
 height: 699px;
 
@@ -23,7 +27,7 @@ margin: 0;
 font-family: 'El Messiri';
 font-style: normal;
 font-weight: 700;
-font-size: 40px;
+font-size: 42px;
 text-align: center;
 color: #FFFFFF;
 }
@@ -160,4 +164,229 @@ margin-left: 45px;
     height: 258px;
     background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), #8E8E8E;
     border-radius: 10px;
+}
+
+
+@media (max-width: 1298px){
+    .seans{
+        width: 90%;
+        height: 1000px;
+        
+        }
+        
+        .seans__head{
+        width: 482px;
+               
+        }
+        
+        .head__text{
+        
+        font-size: 40px;
+        
+        }
+        
+        .seans__group{
+            
+            grid-template-columns: 416px 416px;
+            grid-template-rows: 258px 258px 258px;
+            gap: 24px;
+            
+        }
+        
+        
+       
+        .C{
+        
+            width: 416px;
+            height: 258px;
+            
+            border-radius: 10px;
+            grid-column: 1; 
+            grid-row:3;
+            cursor: pointer;
+            
+        }
+        .C:last-child{grid-column:2;}
+        
+            
+}
+@media (max-width: 920px){
+    
+        
+        .head__text{
+        font-size: 35px;
+        
+        }
+        
+       
+        
+        .seans__group{
+            
+            grid-template-columns: 316px 316px;
+            grid-template-rows: 158px 158px 158px;
+            gap: 14px;
+            
+        }
+        
+        .A{
+            width: 316px;
+            height: 330px;
+            
+            border-radius: 10px;
+            cursor: pointer;
+        
+        }
+        .A__text{
+            margin: 256px 40px 0 50px;
+            width: 258px;
+            font-size: 18px;
+            
+        }
+        .A__img{
+        
+            
+            width: 316px;
+            height: 330px;
+            
+            
+            
+        }
+        .A__rec{
+            display: none;}
+            
+        .B{
+        
+            width: 316px;
+            height: 158px;
+            
+        }
+        
+        .B__text{
+            margin: 94px 40px 30px 40px;
+            width: 258px;
+            font-size: 18px;
+            
+        }
+        .B__img{
+            
+            width: 316px;
+            height: 158px;
+            
+        }
+        .C{
+        
+            width: 316px;
+            height: 158px;
+            
+            grid-column: 1; 
+            grid-row:3;
+            
+            
+        }
+        .C:last-child{grid-column: 2;}
+        
+        .C__text{
+            margin: 60px 40px 30px 40px;
+            width: 258px;
+            font-size: 18px;
+            
+        }
+        .C__img{
+            
+            width: 316px;
+            height: 158px;
+            
+        }
+
+}
+@media (max-width: 720px){
+    
+        
+    .head__text{
+    font-size: 30px;
+    
+    }
+    
+   
+    
+    .seans__group{
+        
+        grid-template-columns: 316px;
+        grid-template-rows: 158px 158px 158px 158px 158px;
+        gap: 14px;
+        
+    }
+    
+    .A{
+        width: 316px;
+        height: 158px;
+        
+        border-radius: 10px;
+        cursor: pointer;
+    
+    }
+    .A__text{
+        margin: 94px 40px 0 50px;
+        width: 258px;
+        font-size: 18px;
+        
+    }
+    .A__img{
+    
+        
+        width: 316px;
+        height: 158px;
+        
+        
+        
+    }
+    .A__rec{
+        display: none;}
+        
+    .B{
+    
+        width: 316px;
+        height: 158px;
+        grid-column: 1; 
+        grid-row:2 3 ;
+    }
+    
+    
+    .B__text{
+        margin: 94px 40px 30px 40px;
+        width: 258px;
+        font-size: 18px;
+        
+    }
+    .B__img{
+        
+        width: 316px;
+        height: 158px;
+        
+    }
+    .C{
+    
+        width: 316px;
+        height: 158px;
+        
+        grid-column: 1; 
+        grid-row:4;
+        
+        
+    }
+    .C:last-child{grid-row:5;}
+    
+    .C__text{
+        margin: 60px 40px 30px 40px;
+        width: 258px;
+        font-size: 18px;
+        
+    }
+    .C__img{
+        
+        width: 316px;
+        height: 158px;
+        
+    }
+
 }

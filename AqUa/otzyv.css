@@ -1,6 +1,7 @@
 @import url(/font.css);
 .heead1
 {
+    display: none;
     outline: 1px #b51f1f dashed;
     margin-top: 0px;
     padding-left: 750px;
